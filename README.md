@@ -13,14 +13,3 @@
 - Register
 - Update
 </body>
-| Login        | Register           | Update  | Home |
-| ------------- |:-------------:| -----:|-------|
-| <img src="https://user-images.githubusercontent.com/46309253/80273266-571bce80-86ee-11ea-973f-8497882f586e.png" alt="Girl in a jacket" width="450" height="800">
-    | 
-<img src="https://user-images.githubusercontent.com/46309253/80273266-571bce80-86ee-11ea-973f-8497882f586e.png" alt="Girl in a jacket" width="450" height="800">
- | 
-<img src="https://user-images.githubusercontent.com/46309253/80273266-571bce80-86ee-11ea-973f-8497882f586e.png" alt="Girl in a jacket" width="450" height="800">
-| 
-<img src="https://user-images.githubusercontent.com/46309253/80273266-571bce80-86ee-11ea-973f-8497882f586e.png" alt="Girl in a jacket" width="450" height="800">
- |
-
