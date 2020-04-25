@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/lyt"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    android:orientation="vertical">
+
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/lyt_linear"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#fff"
+        android:gravity="center"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:gravity="center"
+            android:text="@string/title_activity_register"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Subhead"
+            android:textColor="@color/colorTextAction" />
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/u_image"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_gravity="center"
+            android:scaleType="centerCrop"
+            android:src="@drawable/ic_user"
+            android:layout_margin="20dp"
+            app:civ_border_color="@color/colorTextAction"
+            app:civ_border_overlay="true"
+            app:civ_border_width="2dp" />
+
+
+        <EditText
+            android:id="@+id/et_fname"
+            android:layout_width="250dp"
+            android:layout_height="@dimen/spacing_xmlarge"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/edit_text_round"
+            android:hint="Enter First Name"
+            android:inputType="text"
+            android:maxLength="50"
+            android:maxLines="1"
+            android:paddingLeft="15dp"
+            android:singleLine="true"
+            android:textColor="@android:color/black"
+            android:textColorHint="@color/grey_60" />
+
+        <EditText
+            android:id="@+id/et_lname"
+            android:layout_width="250dp"
+            android:layout_height="@dimen/spacing_xmlarge"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/edit_text_round"
+            android:hint="Enter Last Name"
+            android:inputType="text"
+            android:maxLength="50"
+            android:maxLines="1"
+            android:paddingLeft="15dp"
+            android:singleLine="true"
+            android:textColor="@android:color/black"
+            android:textColorHint="@color/grey_60" />
+
+        <EditText
+            android:id="@+id/et_email"
+            android:layout_width="250dp"
+            android:layout_height="@dimen/spacing_xmlarge"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/edit_text_round"
+            android:hint="Enter email"
+            android:inputType="textEmailAddress"
+            android:maxLength="50"
+            android:maxLines="1"
+            android:paddingLeft="15dp"
+            android:singleLine="true"
+            android:textColor="@android:color/black"
+            android:textColorHint="@color/grey_60" />
+
+        <EditText
+            android:id="@+id/etpassword"
+            android:layout_width="250dp"
+            android:layout_height="@dimen/spacing_xmlarge"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/edit_text_round"
+            android:hint="Enter Password"
+            android:inputType="textPassword"
+            android:maxLength="50"
+            android:maxLines="1"
+            android:paddingLeft="15dp"
+            android:singleLine="true"
+            android:textColor="@android:color/black"
+            android:textColorHint="@color/grey_60" />
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimary"
+            android:src="@drawable/ic_next"
+            android:text="Register"
+            android:textColor="#fff"
+            app:backgroundTint="@color/colorPrimary" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:gravity="bottom"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Already Registered?"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Body1"
+                android:textColor="@color/grey_60" />
+
+            <TextView
+                android:id="@+id/tvlogin"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="?attr/selectableItemBackground"
+                android:clickable="true"
+                android:padding="@dimen/spacing_medium"
+                android:text="Login here"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Body1"
+                android:textColor="@color/colorTextAction"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+</LinearLayout>
